@@ -1,0 +1,22 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+nav {
+  font-family: 'Lobster', cursive;
+}
+
+.btn-outline-light {
+  font-size: 13px;
+  color: #000000;
+  border-color: #DDDDDD;
+}
+
+div .text-left {
+  color: #373A3C;
+}
+
+.preparation {
+  line-height: 30px;
+}
+    /*HAY QUE REVISAR QUE LOS COLORES ESTEN BIEN*/
