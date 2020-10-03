@@ -16,59 +16,131 @@
   </head>
   <body>
     <!--barra de navegación-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <span class="navbar-brand mb-0 mx-auto p-0 h1">Ricomida</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark cabinfont">
+      <h1 class="lobsterfont lobsterfont-title text-white text-center mb-0">Ricomida</h1>
+      <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav navright">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="#">Recetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
 
-    <!-- HAY QUE REVISAR QUE LOS COLORES ESTEN BIEN-->
 
     <!--cartas-->
-    <div class="container-fluid">
-      <div class="container mx-auto mt-3" style="width: 18rem;">
-        <img src="assets/img/principal.jpg" class="card-img-top pt-3 border-top border-bottom border-dark rounded-0" alt="...">
-        <div class="card-body pb-1 border-bottom border-dark">
-          <h4 class="card-title text-center pb-0">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h4>
+    <div class="bodypadding">
+      <div class="container mt-3 mt-md-1 cardsgroup">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <img src="assets/img/principal.jpg" class="card-img-top imgfull imgsm" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="pizzacard">
+              <div class="card-body righttitle">
+                <h4 class="card-title pb-0 display-md-3">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h4>
+              </div>
+              <div class="pizzasubtitle pb-0 pt-3">
+                <p>110 MIN / 6 A 8 PORCIONES</p>
+              </div>
+              <div class="pizzabuttongroup">
+                <button type="button" class="btn btn-outline-light pizzabutton pizzbutton1 d-inline" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
+                <button type="button" class="btn btn-outline-light pizzabutton pizzbutton2 d-inline ml-4" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="card-body px-auto text-center pb-0 pt-3">
-          <p>110 MIN / 6 A 8 PORCIONES</p>
+
+        <!--carrusel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!--contenedor imagenes-->
+            <div class="carouselblockimg">
+              <!-- parte activa carrusel-->
+              <div class="carousel-item active">
+                <!--fila carrusel-->
+                <div class="row">
+                  <!--imagen carrusel-->
+                  <!--img1-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-1.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <!--img2-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-2.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <!--img3-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-3.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <!--img4-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-4.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item escondido carrusel-->
+              <div class="carousel-item">
+                <div class="row">
+                  <!--imagen carrusel-->
+                  <!--img5-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-5.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <!--img6-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-6.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <!--img7-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-7.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <!--img8-->
+                  <div class="col-3">
+                    <div class="carouselimg">
+                      <img src="assets/img/slider-8.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="container pl-0 d-inline">
-          <button type="button" class="btn btn-outline-light px-2 py-2">Enviar por correo</button>
+          <!--bloque de indicadores-->
+          <div class="container-fluid indicatorsblock">
+            <ol class="indicatorslist">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicatorlistcarousel"></li>
+              <li data-target="#carouselExampleIndicators" class="indicatorlistcarousel" data-slide-to="1"></li>
+            </ol>
+          </div>
         </div>
-        <div class="container pr-0 d-inline">
-          <button type="button" class="btn btn-outline-light px-2 py-2">Añadir a favoritos</button>
-        </div>
+
         <div class="text-left font-weight-bold pb-0 pt-3 mt-3">
           <p>INGREDIENTES</p>
         </div>
@@ -110,44 +182,71 @@
           <p class="mb-5"> 6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</p>
         </div>
 
-<!-- acá pasamos a las recetas relacionadas y ese card-deck-->
+        <!-- acá pasamos a las recetas relacionadas y ese card-deck-->
         <!--panqueque-->
-        <div class="card-body pt-0">
+        <div class="card-body">
           <h4 class="card-title text-center font-weight-bold">RECETAS RELACIONADAS</h4>
         </div>
-        <div class="card mx-auto">
-          <img src="assets/img/recipe-card-1.png" class="img-fluid" alt="panqueques con manjar">
-          <div class="card-body">
-            <h5 class="text-left pb-2">PANQUEQUES CON MANJAR Y CREMA</h5>
-            <p class="card-text pb-3">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra</p>
+        <div class="card-deck">
+          <div class="card mx-auto">
+            <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="panqueques">
+            <div class="card-body">
+              <h6 class="card-title font-weight-bold pt-2">PANQUEQUES CON MANJAR Y CREMA</h6>
+              <p class="card-text pt-2 mb-3">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra</p>
+            </div>
           </div>
-        </div>
-        <!--Tiramisu-->
-        <div class="card mx-auto mt-4">
-          <img src="assets/img/recipe-card-2.png" class="img-fluid" alt="panqueques con manjar">
-          <div class="card-body">
-            <h5 class="text-left pb-2">TIRAMISÚ</h5>
-            <p class="card-text pb-3">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti</p>
+          <!--tiramisú-->
+            <div class="card mx-auto mt-4">
+              <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="tiramisú">
+              <div class="card-body">
+                <h6 class="card-title font-weight-bold pt-2">TIRAMISÚ</h6>
+                <p class="card-text pt-2 mb-3">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti</p>
+              </div>
+            </div>
+            <!--plateada-->
+            <div class="card mx-auto mt-4 mb-4">
+              <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="plateada con puré">
+              <div class="card-body">
+                <h6 class="card-title font-weight-bold pt-2">PLATEADA</h6>
+                <p class="card-text pt-2 mb-3">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor</p>
+              </div>
+            </div>
+          <!--ACA TERMINA EL CARD-DECK-->
           </div>
-        </div>
-
         <!--pasado este comentario se pierden los margenes en los elementos-->
         </div>
       </div>
     </div>
-
-<!--BORRAR ESTA CARTA-->
-    <div class="container-fluid mt-5">
-      <div class="container mx-auto mt-3 principalimg" style="width: 18rem;">
-        <img src="assets/img/principal.jpg" class="card-img-top pt-3" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+  <!--footer red-->
+  <footer>
+    <div class="container-fluid bg-danger text-white text-justify pb-5">
+      <div class="pt-5 mt-5">
+        <h3 class="text-center pt-5 pb-4 subscribe">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
+        <div class="px-4 text-justify px-auto ml-2">
+          <p class="font-weight-light h5">y obtén las mejores recetas</p>
+          <p class="d-inline h5">que tenemos en</p>
+          <p class="lobsterfont d-inline h5 ml-2">Ricomida</p>
         </div>
       </div>
+      <div class="container mb-0 pb-5 px-4">
+        <button type="button" class="btn btn-outline-light text-light btn-block mt-4">Empezar</button>
+      </div>
     </div>
+  <!--footer black-->
+    <div class="container-fluid bg-dark mt-0 pb-4">
+      <h1 class="lobsterfont lobsterfont-title text-white text-center pt-4">Ricomida</h1>
+    </div>
+  </footer>
 
+  <!-- Jquery 3.5.1 sin slim-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- popper JS 1.16.1-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS 4.5.2 -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!--llamamos al archivo js-->
+  <script src="assets/js/script.js"></script>
 
   </body>
 </html>

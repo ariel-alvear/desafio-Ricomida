@@ -1,13 +1,17 @@
-body {
+body, .cabinfont {
   font-family: 'Cabin', sans-serif;
 }
 
-nav {
+.lobsterfont {
   font-family: 'Lobster', cursive;
 }
 
+.bodypadding {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn-outline-light {
-  font-size: 13px;
   color: #000000;
   border-color: #DDDDDD;
 }
@@ -19,4 +23,165 @@ div .text-left {
 .preparation {
   line-height: 30px;
 }
+
+.subscribe, .lobsterfont{
+  letter-spacing: 1px;
+}
+
+.btn-outline-light, .text-light{
+  font-size: 16px;
+}
+
+.lobsterfont-title {
+  font-size: 37px;
+  padding-left: 1rem;
+}
+
+.pizzabutton {
+  width: 112.21px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 11px;
+}
+
+.navright {
+  padding-left: auto;
+}
+
+.imgsm {
+  padding-top: 1rem;
+  border-radius: 0;
+  border-color: #343a40;
+  border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #343a40;
+}
+
+.cardsgroup {
+  margin-left: auto;
+  margin-right: auto;
+  width: 18rem;
+}
+
+.righttitle {
+  text-align: center;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid;
+  border-color: #343a40;
+}
+
+.pizzasubtitle {
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+
+.pizzabutton1 {
+  margin-left: .25rem;
+}
+
+
+/*primer breakpoint */
+@media (min-width: 576px) {
+  .imgfull {
+    width: 482px;
+    height: 384px;
+    background-size: cover;
+    border: 0;
+  }
+
+  .bodypadding {
+    padding-left: 150px;
+  }
+
+  .lobsterfont-title {
+    margin-left: 150px;
+    padding-left: 0;
+  }
+
+  .navright {
+    margin-right: 150px;
+    margin-left: auto;
+  }
+
+  .cardsgroup {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .imgfull {
+    display: inline-block;
+  }
+
+  .righttitle {
+    display: inline-block;
+    text-align: left;
+    font-size: 40px;
+    width: 425px;
+    height: 201px;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-top: 56.5px;
+    border: 0;
+  }
+
+  h4 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .pizzasubtitle {
+    text-align: left;
+    width: 269px;
+    font-size: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 17px;
+    border-top: 1px solid;
+    margin-left: 25px;
+    width: 100%;
+    margin-top: 23.5px;
+  }
+
+  .pizzabuttongroup {
+    margin-left: 23px;
+    font-size: 16px;
+  }
+
+  .carouselblockimg {
+    height: 170px;
+    width: 980px;
+    margin-top: 68px;
+  }
+
+  .carouselimg {
+    height: 170px;
+    width: 233px;
+    background-size: auto;
+  }
+
+  .indicatorsblock {
+    height: 45px;
+    border-bottom: 1px solid;
+  }
+
+  .indicatorslist {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .indicatorlistcarousel {
+    height: 12.68px;
+    width: 13.1px;
+    background-color: #373A3C31;
+    border-radius: 100%;
+    margin-top: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+
+}
+
     /*HAY QUE REVISAR QUE LOS COLORES ESTEN BIEN*/
