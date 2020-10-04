@@ -181,6 +181,10 @@ div .text-left {
     display: inline-block;
   }
 
+  #carouselpizzaimg {
+    display: none;
+  }
+
 
 }
 
