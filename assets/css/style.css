@@ -79,6 +79,10 @@ div .text-left {
   margin-left: .25rem;
 }
 
+#carouselpizzaimg {
+  display: none;
+}
+
 
 /*primer breakpoint */
 @media (min-width: 576px) {
@@ -182,8 +186,10 @@ div .text-left {
   }
 
   #carouselpizzaimg {
-    display: none;
+    display: block;
   }
+
+
 
 
 }
