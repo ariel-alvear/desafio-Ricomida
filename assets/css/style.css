@@ -240,19 +240,29 @@ div .text-left {
   .indicatorsblock {
     height: 40px;
     border-bottom: 1px solid;
+    width: 100%;
+    text-align: center;
   }
 
-  .indicatorslist {
-    margin-left: auto;
-    margin-right: auto;
+  .indicatorsblock {
     text-align: center;
     margin-top: 24px;
   }
 
-  .indicatorlistcarousel {
+  #indicator1 {
+    background-color: #373A3C;
     height: 12.68px;
     width: 13.1px;
-    background-color: #373A3C31;
+    border-radius: 100%;
+    margin-top: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+  #indicator2 {
+    background-color: #373A3C;
+    height: 12.68px;
+    width: 13.1px;
     border-radius: 100%;
     margin-top: 0;
     list-style: none;
