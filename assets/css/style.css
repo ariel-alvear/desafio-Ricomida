@@ -92,6 +92,10 @@ div .text-left {
   text-align: center;
 }
 
+.subscribetitle {
+  padding-bottom: 1.5rem;
+}
+
 .startbutton {
   display: block;
   width: 100%;
@@ -129,6 +133,10 @@ div .text-left {
     display: inline-block;
   }
 
+  .pizzacard {
+    margin-left: 16px;
+  }
+
   .righttitle {
     display: inline-block;
     text-align: left;
@@ -146,22 +154,28 @@ div .text-left {
     font-weight: bold;
   }
 
+  .card-body {
+    padding-left: 0;
+  }
+
   .pizzasubtitle {
     text-align: left;
     width: 269px;
     font-size: 20px;
     padding-right: 0;
-    padding-left: 0;
     padding-top: 17px;
     border-top: 1px solid;
-    margin-left: 25px;
+    padding-left: 0;
     width: 100%;
     margin-top: 23.5px;
   }
 
   .pizzabuttongroup {
-    margin-left: 23px;
     font-size: 16px;
+  }
+
+  .pizzbutton2 {
+    margin-left: 24.29px;
   }
 
   .carouselblockimg {
@@ -214,24 +228,52 @@ div .text-left {
     border-color: #000000;
   }
 
+  .recipecard {
+    padding-left: 25px;
+  }
+
+  .subscribetitle {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
   .subtitlesubscribetextblock {
     text-align: center;
+    margin-top: 7px;
   }
 
   .subtitlesubscribetext {
     display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .ricomidalabel {
+    font-size: 30px;
+    font-weight: 700;
   }
 
 
   .startbuttonblock {
     text-align: center;
-    padding-left: 523.5px;
   }
 
   .startbutton {
     width: 233px;
     height: 40px;
+    display: inline;
+    margin-bottom: 197px;
+    margin-top: 39.5px;
   }
+
+  .blackfooter {
+    text-align: center;
+    padding-right: 150px;
+  }
+
+
 
 }
 
