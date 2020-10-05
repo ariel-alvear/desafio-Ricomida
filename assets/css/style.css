@@ -22,6 +22,8 @@ div .text-left {
 
 .preparation {
   line-height: 30px;
+  border-color: #343a40;
+  border-bottom: 1px solid;
 }
 
 .subscribe, .lobsterfont{
@@ -83,6 +85,17 @@ div .text-left {
   display: none;
 }
 
+.relatedrecipes {
+  margin-bottom: 38.5px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.startbutton {
+  display: block;
+  width: 100%;
+}
 
 /*primer breakpoint */
 @media (min-width: 576px) {
@@ -164,7 +177,7 @@ div .text-left {
   }
 
   .indicatorsblock {
-    height: 45px;
+    height: 40px;
     border-bottom: 1px solid;
   }
 
@@ -189,8 +202,36 @@ div .text-left {
     display: block;
   }
 
+  .preparation {
+    border: 0;
+  }
+
+  .relatedrecipes {
+    width: 100%;
+    text-align: center;
+    padding-top: 22.5px;
+    border-top: 1px solid;
+    border-color: #000000;
+  }
+
+  .subtitlesubscribetextblock {
+    text-align: center;
+  }
+
+  .subtitlesubscribetext {
+    display: inline-block;
+  }
 
 
+  .startbuttonblock {
+    text-align: center;
+    padding-left: 523.5px;
+  }
+
+  .startbutton {
+    width: 233px;
+    height: 40px;
+  }
 
 }
 
