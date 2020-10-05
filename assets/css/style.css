@@ -154,6 +154,7 @@ div .text-left {
 
   .bodypadding {
     padding-left: 150px;
+    padding-right: 150px;
   }
 
   .lobsterfont-title {
@@ -220,6 +221,10 @@ div .text-left {
     margin-left: 24.29px;
   }
 
+  .carousel-inner {
+    width: 100%;
+  }
+
   .carouselblockimg {
     height: 170px;
     width: 980px;
@@ -270,7 +275,10 @@ div .text-left {
     border-color: #000000;
   }
 
-  
+  .recipecard {
+    padding-left: 19.52px;
+  }
+
 
   .subscribetitleblock {
     margin-top: 79.19px;
