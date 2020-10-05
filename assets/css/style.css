@@ -143,7 +143,7 @@ div .text-left {
 }
 
 
-/*primer breakpoint */
+/* breakpoint */
 @media (min-width: 576px) {
   .imgfull {
     width: 482px;
@@ -334,8 +334,4 @@ div .text-left {
     text-align: center;
   }
 
-
-
 }
-
-    /*HAY QUE REVISAR QUE LOS COLORES ESTEN BIEN*/
