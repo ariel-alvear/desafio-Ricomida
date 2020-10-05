@@ -270,8 +270,10 @@ div .text-left {
     border-color: #000000;
   }
 
-  .recipecard {
-    padding-left: 25px;
+  
+
+  .subscribetitleblock {
+    margin-top: 79.19px;
   }
 
   .subscribetitle {
@@ -312,7 +314,6 @@ div .text-left {
 
   .blackfooter {
     text-align: center;
-    padding-right: 150px;
   }
 
 
